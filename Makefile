@@ -33,3 +33,7 @@ upload:
 minor-release: pre-release
 	bump2version minor
 	make build push-with-tags upload
+
+patch-release: pre-release
+	bump2version patch
+	make build push-with-tags upload

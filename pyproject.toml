@@ -12,7 +12,6 @@ requires-python = ">=3.11"
 dependencies = [
     "django",
     "structlog",
-    "uv-build>=0.8.4",
 ]
 
 [project.urls]
@@ -26,9 +25,9 @@ quote-style = "single"
 
 [dependency-groups]
 dev = [
-    "uv_build",
+    "uv-build>=0.8.4",
     "bump2version",
-    "cython",       # for pycharm debugger extensions
+    "cython",          # for pycharm debugger extensions
     "django-types",
     "ipython",
     "mypy",
