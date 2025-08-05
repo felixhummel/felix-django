@@ -1,0 +1,6 @@
+[env]
+_.python.venv = { path = ".venv" }
+
+[tools]
+pre-commit = "latest"
+uv = "latest"
