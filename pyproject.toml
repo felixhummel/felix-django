@@ -5,7 +5,7 @@ build-backend = "uv_build"
 [project]
 name = "felix_django"
 description = "Felix' Django stuff"
-version = "1.0.0"
+version = "1.0.1"
 readme = "README.md"
 authors = [{ name = "Felix Hummel", email = "felix@felixhummel.de" }]
 requires-python = ">=3.11"
